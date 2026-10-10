@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul S | AI & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Rahul S — Developer specializing in AI & LLMs, RAG systems, Flutter mobile applications, and full-stack software development.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23345AAA'/><text y='70' x='18' font-family='monospace' font-size='65' font-weight='bold' fill='white'>R</text></svg>">
+
+  <!-- Google Fonts: Cousine & Special Elite (Matching bermawy.com) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-paper">
+
+  <!-- FULL-PAGE TACTILE PAPER GRAIN & NOISE OVERLAY -->
+  <div class="paper-grain-overlay" aria-hidden="true"></div>
+
+  <!-- Top Announcement / Status Bar -->
+  <div class="top-announcement">
+    <div class="announcement-content">
+      <div class="announcement-left">
+        <span class="status-dot"></span>
+        <span class="mono-text">AVAILABLE FOR ROLES & COLLABORATIONS // GITHUB: @RAHUL18107</span>
+      </div>
+      <a href="https://github.com/rahul18107" target="_blank" rel="noopener noreferrer" class="announcement-link">[FOLLOW ON GITHUB ↗]</a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar (bermawy.com style) -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-link">
+        <span class="brand-name">Rahul S</span>
+        <span class="brand-cursor">_</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#in-the-works" class="nav-link">[FEATURED]</a>
+        <a href="#showcase" class="nav-link">[PROJECTS]</a>
+        <a href="#all-repos" class="nav-link">[ARCHIVE]</a>
+        <a href="#about" class="nav-link">[ABOUT]</a>
+        <a href="#contact" class="nav-link highlight">[CONTACT]</a>
+      </nav>
+
+      <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Toggle navigation">
+        <span class="menu-icon">[MENU]</span>
+      </button>
+    </div>
+    <!-- Hand-drawn jagged paper divider line from bermawy.com -->
+    <img src="assets/line-divider.svg" loading="lazy" alt="" class="nav-line-divider"/>
+  </header>
+
+  <!-- Mobile Dropdown Navigation -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="#in-the-works" class="mobile-nav-link">[FEATURED]</a>
+    <a href="#showcase" class="mobile-nav-link">[PROJECTS]</a>
+    <a href="#all-repos" class="mobile-nav-link">[ARCHIVE]</a>
+    <a href="#about" class="mobile-nav-link">[ABOUT]</a>
+    <a href="#contact" class="mobile-nav-link highlight">[CONTACT]</a>
+  </div>
+
+  <main>
+    <!-- HERO SECTION (bermawy.com Hero Layout with Polaroid Cycle Animation) -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        
+        <div class="hero-left">
+          <!-- Typewriter Cursor Header -->
+          <div class="typewriter-box">
+            <span class="typewriter-text" id="typewriter-target"></span>
+            <span class="typing-caret">|</span>
+          </div>
+
+          <div class="hero-intro-text">
+            <p class="hero-bio">
+              Rahul here, nice to meet you 👋<br><br>
+              I am a developer who turns ideas into working products across <strong>AI & LLMs</strong>, <strong>full-stack engineering</strong>, and <strong>mobile apps</strong>.
+              My work spans predictive AI simulation, Retrieval-Augmented Generation (RAG), and university platforms.
+            </p>
+            <p class="hero-sub-bio">
+              I specialize in building end-to-end applications with <strong>Python</strong>, <strong>Flutter & Dart</strong>, <strong>FastAPI</strong>, and <strong>React</strong>. Currently exploring autonomous agent networks and intent-native software.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#showcase" class="btn btn-primary">[EXPLORE PROJECTS ↓]</a>
+            <a href="https://github.com/rahul18107" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">[VIEW GITHUB ↗]</a>
+            
+            <!-- Handwritten Doodle 1: Hand-Drawn Arrow & Note -->
+            <div class="doodle-note hero-doodle" aria-hidden="true">
+              <svg viewBox="0 0 65 40" class="doodle-svg doodle-arrow">
+                <path d="M5,6 C22,2 48,8 54,26 M44,22 L54,26 L58,16" fill="none" stroke="#345AAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="doodle-hand-text">explore my work ↓</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TECH SCHEMATIC POLAROID WITH HOVER CYCLE ANIMATION -->
+        <div class="hero-right">
+          <!-- Handwritten Doodle 2: Hand-Drawn Sparkles around Polaroid -->
+          <div class="doodle-sparkle-wrap top-right" aria-hidden="true">
+            <svg viewBox="0 0 32 32" class="doodle-svg doodle-sparkle">
+              <path d="M16,2 C16,9 18,14 26,16 C18,18 16,23 16,30 C16,23 14,18 6,16 C14,14 16,9 16,2 Z" fill="none" stroke="#345AAA" stroke-width="1.8" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="doodle-sparkle-wrap bottom-left" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="doodle-svg doodle-sparkle-sm">
+              <path d="M12,2 C12,7 13,10 19,12 C13,14 12,17 12,22 C12,17 11,14 5,12 C11,10 12,7 12,2 Z" fill="none" stroke="#345AAA" stroke-width="1.6" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <div class="photo-wrap" id="polaroid-cycle" title="Hover to trigger overclock state">
+            <div class="paper-pin"></div>
+            <img src="assets/tech-polaroid-default.svg" loading="eager" alt="Rahul S Tech Schematic" class="photo-default"/>
+            <img src="assets/tech-polaroid-hover.svg" loading="eager" alt="Rahul S Cyber Overclock" class="photo-hover-2"/>
+            <div class="polaroid-label-bar">
+              <span class="polaroid-author">RAHUL_LABS // 2026</span>
+              <span class="polaroid-tag">[HOVER FOR OVERCLOCK ⚡]</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Jagged Paper Line Divider -->
+    <div class="divider-wrap">
+      <img src="assets/line-divider.svg" loading="lazy" alt="" class="section-line-divider"/>
+    </div>
+
+    <!-- "IN THE WORKS" SECTION (Signature bermawy.com Section with Paper Tape) -->
+    <section class="section section-in-the-works" id="in-the-works">
+      <div class="container">
+        
+        <div class="section-tag-header">
+          <div class="section-badge">IN THE WORKS</div>
+          <div class="section-tag-line"></div>
+        </div>
+
+        <div class="works-grid">
+          
+          <!-- Card 1: Virality Predictor -->
+          <div class="work-card paper-sheet">
+            <div class="washi-tape top-center"></div>
+            
+            <!-- Handwritten Doodle Accent on Card 1 -->
+            <div class="doodle-card-badge" aria-hidden="true">
+              <span class="doodle-hand-text">★ live in prod!</span>
+              <svg viewBox="0 0 45 28" class="doodle-svg doodle-curve-arrow">
+                <path d="M4,8 C18,3 32,8 36,22 M28,18 L36,22 L40,14" fill="none" stroke="#345AAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+            <div class="work-card-top">
+              <div class="work-logo-box">
+                <span class="work-emoji">🔥</span>
+              </div>
+              <div class="work-status-badge live">LIVE DEMO</div>
+            </div>
+            <div class="work-card-body">
+              <h3 class="work-title">
+                <a href="https://goviral-indol.vercel.app" target="_blank" rel="noopener noreferrer">Virality Predictor</a>
+              </h3>
+              <p class="work-desc">
+                Simulates content propagation across autonomous AI persona networks. Uses multi-modal analysis to calculate viral velocity scores and generate dynamic diffusion graphs.
+              </p>
+              <div class="work-stack-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">AI Personas</span>
+              </div>
+            </div>
+            <div class="work-card-footer">
+              <a href="https://goviral-indol.vercel.app" target="_blank" rel="noopener noreferrer" class="link-btn">[LAUNCH DEMO ↗]</a>
+              <a href="https://github.com/rahul18107/virality-project" target="_blank" rel="noopener noreferrer" class="link-btn github">[REPO ↗]</a>
+            </div>
+          </div>
+
+          <!-- Card 2: StudyComp -->
+          <div class="work-card paper-sheet">
+            <div class="washi-tape top-center"></div>
+            <div class="work-card-top">
+              <div class="work-logo-box">
+                <span class="work-emoji">📚</span>
+              </div>
+              <div class="work-status-badge">RAG ARCHITECTURE</div>
+            </div>
+            <div class="work-card-body">
+              <h3 class="work-title">
+                <a href="https://github.com/rahul18107/RAG-project" target="_blank" rel="noopener noreferrer">StudyComp</a>
+              </h3>
+              <p class="work-desc">
+                AI-driven learning companion transforming study notes and lecture PDFs into an interactive knowledge base with context-aware chat, vector embeddings, and automated flashcards.
+              </p>
+              <div class="work-stack-tags">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">RAG / Embeddings</span>
+                <span class="tech-tag">Vector DB</span>
+              </div>
+            </div>
+            <div class="work-card-footer">
+              <button class="link-btn inspect-trigger" data-repo="RAG-project">[INSPECT ARCHITECTURE]</button>
+              <a href="https://github.com/rahul18107/RAG-project" target="_blank" rel="noopener noreferrer" class="link-btn github">[REPO ↗]</a>
+            </div>
+          </div>
+
+          <!-- Card 3: DailyCollege -->
+          <div class="work-card paper-sheet">
+            <div class="washi-tape top-center"></div>
+            <div class="work-card-top">
+              <div class="work-logo-box">
+                <span class="work-emoji">🎓</span>
+              </div>
+              <div class="work-status-badge">CAMPUS TECH</div>
+            </div>
+            <div class="work-card-body">
+              <h3 class="work-title">
+                <a href="https://github.com/rahul18107/DailyCollege" target="_blank" rel="noopener noreferrer">DailyCollege</a>
+              </h3>
+              <p class="work-desc">
+                Converts unstructured university WhatsApp chat noise into structured, daily AI event summaries. Features phone-based OTP authentication, typed cards, and multi-account sync.
+              </p>
+              <div class="work-stack-tags">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Supabase</span>
+              </div>
+            </div>
+            <div class="work-card-footer">
+              <button class="link-btn inspect-trigger" data-repo="DailyCollege">[VIEW SPECS]</button>
+              <a href="https://github.com/rahul18107/DailyCollege" target="_blank" rel="noopener noreferrer" class="link-btn github">[REPO ↗]</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INFINITE TECH MARQUEE (bermawy.com style) -->
+    <div class="marquee-section">
+      <div class="marquee-fade-left"></div>
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span class="marquee-item">PYTHON</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">FLUTTER & DART</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">RAG & VECTOR SEARCH</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">FASTAPI</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">REACT & JAVASCRIPT</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">SUPABASE</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">NODE.JS</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">POWER BI</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">DEEP LEARNING</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">AGENTIC AI</span>
+          <span class="marquee-sep">•</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span class="marquee-item">PYTHON</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">FLUTTER & DART</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">RAG & VECTOR SEARCH</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">FASTAPI</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">REACT & JAVASCRIPT</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">SUPABASE</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">NODE.JS</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">POWER BI</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">DEEP LEARNING</span>
+          <span class="marquee-sep">•</span>
+          <span class="marquee-item">AGENTIC AI</span>
+          <span class="marquee-sep">•</span>
+        </div>
+      </div>
+      <div class="marquee-fade-right"></div>
+    </div>
+
+    <!-- INTERACTIVE SHOWCASE WITH AUTHENTIC GAMEBOY CONTROLLER (bermawy.com style) -->
+    <section class="section section-showcase section-notebook-bg" id="showcase">
+      <div class="container">
+        
+        <!-- Tab Navigation (bermawy.com style tabs) -->
+        <div class="tabs-header-wrap">
+          <div class="tabs-menu" role="tablist">
+            <button class="tab-button active" data-tab="all">[ALL SYSTEMS]</button>
+            <button class="tab-button" data-tab="ai">[AI & LLMs]</button>
+            <button class="tab-button" data-tab="fullstack">[MOBILE & WEB]</button>
+            <button class="tab-button" data-tab="data">[DATA & ML]</button>
+          </div>
+          <div class="tabs-instruction mono-text">CLICK CARDS OR USE GAMEBOY BUTTONS 🕹️</div>
+        </div>
+
+        <div class="showcase-layout">
+          
+          <!-- Left: Selectable Projects List -->
+          <div class="projects-list-column">
+            <div class="projects-scrollable" id="projects-list-container">
+              <!-- Dynamically populated in JS -->
+            </div>
+          </div>
+
+          <!-- Right: INDUSTRIAL CYBERDECK POCKET CONSOLE -->
+          <div class="console-column">
+            <div class="cyber-deck-outer" id="cyber-deck">
+              
+              <!-- Chassis Corner Hex Screws -->
+              <div class="deck-screw top-left"></div>
+              <div class="deck-screw top-right"></div>
+              <div class="deck-screw bottom-left"></div>
+              <div class="deck-screw bottom-right"></div>
+
+              <!-- Top Telemetry Header -->
+              <div class="deck-header-strip">
+                <div class="deck-model-tag">
+                  <span class="brand-chip">RAHUL_DECK</span>
+                  <span class="deck-series">MOD-26 // INTENT_OS</span>
+                </div>
+                <div class="deck-status-indicators">
+                  <div class="indicator-group">
+                    <span class="deck-led led-pwr"></span>
+                    <span class="led-label">PWR</span>
+                  </div>
+                  <div class="indicator-group">
+                    <span class="deck-led led-sync"></span>
+                    <span class="led-label">SYNC</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- OLED Screen Bezel & Display -->
+              <div class="deck-screen-housing">
+                <div class="screen-glare-overlay"></div>
+                <div class="deck-crt-screen" id="console-screen">
+                  <div class="screen-boot-text">&gt; SELECT A PROJECT TO INSPECT...</div>
+                </div>
+              </div>
+
+              <!-- Tactile Controls Deck -->
+              <div class="deck-controls-bay">
+                
+                <!-- D-Pad Navigation -->
+                <div class="dpad-housing">
+                  <div class="tactile-dpad">
+                    <button class="dpad-key dpad-up" id="btn-prev-proj" aria-label="Previous Project">▲</button>
+                    <div class="dpad-center-hub"></div>
+                    <button class="dpad-key dpad-down" id="btn-next-proj" aria-label="Next Project">▼</button>
+                    <button class="dpad-key dpad-left" id="btn-left-proj" aria-label="Previous Project">◀</button>
+                    <button class="dpad-key dpad-right" id="btn-right-proj" aria-label="Next Project">▶</button>
+                  </div>
+                  <span class="deck-control-caption">DIRECTION</span>
+                </div>
+
+                <!-- Speaker Acoustic Grille Array -->
+                <div class="deck-speaker-grille" aria-hidden="true">
+                  <div class="grille-row"><span></span><span></span><span></span><span></span></div>
+                  <div class="grille-row"><span></span><span></span><span></span><span></span></div>
+                  <div class="grille-row"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <!-- Mechanical Action Keys -->
+                <div class="deck-action-buttons">
+                  <div class="action-key-cluster">
+                    <div class="deck-key-wrap">
+                      <button class="deck-key key-b" id="gameboy-btn-b" title="Previous Project [B]">B</button>
+                      <span class="key-legend">PREV</span>
+                    </div>
+                    <div class="deck-key-wrap">
+                      <button class="deck-key key-a" id="gameboy-btn-a" title="Next Project [A]">A</button>
+                      <span class="key-legend">NEXT</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Bottom Hardware Triggers & Knobs -->
+              <div class="deck-hardware-bar">
+                <button class="deck-hardware-pill" id="gameboy-btn-select">[SPECS / INFO]</button>
+                <button class="deck-hardware-pill primary" id="gameboy-btn-start">[LAUNCH PROJECT ↗]</button>
+                <button class="deck-audio-toggle" id="deck-sound-toggle" title="Toggle Sound Feedback">🔊 SFX: ON</button>
+              </div>
+
+              
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Jagged Paper Line Divider -->
+    <div class="divider-wrap">
+      <img src="assets/line-divider.svg" loading="lazy" alt="" class="section-line-divider"/>
+    </div>
+
+    <!-- ALL REPOSITORIES ARCHIVE TABLE (bermawy.com Article-Style Rows) -->
+    <section class="section section-archive" id="all-repos">
+      <div class="container">
+        
+        <div class="archive-header-row">
+          <div class="archive-title-wrap">
+            <div class="section-badge no-border">REPOSITORY ARCHIVE</div>
+            <!-- Handwritten Doodle Wavy Underline -->
+            <svg viewBox="0 0 160 14" class="doodle-svg doodle-wavy-underline" aria-hidden="true">
+              <path d="M2,7 Q20,1 40,7 T80,7 T120,7 T158,9" fill="none" stroke="#345AAA" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="archive-right-wrap">
+            <a href="https://github.com/rahul18107?tab=repositories" target="_blank" rel="noopener noreferrer" class="archive-view-all">[VIEW ON GITHUB ↗]</a>
+            <div class="doodle-star-accent" aria-hidden="true">
+              <svg viewBox="0 0 20 20" class="doodle-svg doodle-star-mini">
+                <path d="M10,2 C10,6 11,8 16,10 C11,12 10,14 10,18 C10,14 9,12 4,10 C9,8 10,6 10,2 Z" fill="none" stroke="#345AAA" stroke-width="1.8"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="repo-rows-wrapper" id="archive-table">
+          
+          <!-- Row 1 -->
+          <div class="repo-row" data-name="virality-project">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/virality-project" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                virality-project
+              </a>
+              <span class="repo-row-subtitle">Simulate content spread across an AI persona network with virality scoring and diffusion graph.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">JavaScript / Python</span>
+              <a href="https://goviral-indol.vercel.app" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Live Site">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="repo-row" data-name="RAG-project">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/RAG-project" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                RAG-project (StudyComp)
+              </a>
+              <span class="repo-row-subtitle">Turn study materials and PDFs into an AI learning companion — chat with notes and generate flashcards.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">Dart / Flutter / HTML</span>
+              <a href="https://github.com/rahul18107/RAG-project" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="repo-row" data-name="DailyCollege">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/DailyCollege" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                DailyCollege
+              </a>
+              <span class="repo-row-subtitle">Turns college WhatsApp noise into clean, AI-generated daily event cards with phone auth.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">Dart / Flutter / Node</span>
+              <a href="https://github.com/rahul18107/DailyCollege" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="repo-row" data-name="VibeOs">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/VibeOs" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                VibeOs
+              </a>
+              <span class="repo-row-subtitle">The operating system for the AI-native era — describe what you want and let AI generate working software on demand.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">Python / Web</span>
+              <a href="https://github.com/rahul18107/VibeOs" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 5 -->
+          <div class="repo-row" data-name="campuscravings">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/campuscravings" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                campuscravings
+              </a>
+              <span class="repo-row-subtitle">Campus canteen ordering platform with JWT auth, college-only email verification, and smart order cart.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">JavaScript / CSS</span>
+              <a href="https://github.com/rahul18107/campuscravings" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 6 -->
+          <div class="repo-row" data-name="Agrilens">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/Agrilens" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                Agrilens
+              </a>
+              <span class="repo-row-subtitle">Interactive Power BI dashboard for exploring agricultural crop yield, rainfall, and resource distribution in India.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">Power BI / Analytics</span>
+              <a href="https://github.com/rahul18107/Agrilens" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 7 -->
+          <div class="repo-row" data-name="deep-learning">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/deep-learning" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                deep-learning
+              </a>
+              <span class="repo-row-subtitle">Notebooks and implementations exploring deep learning architectures, tensor modeling, and experiments.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">Jupyter Notebook / PyTorch</span>
+              <a href="https://github.com/rahul18107/deep-learning" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 8 -->
+          <div class="repo-row" data-name="developer_academy_portfolio">
+            <div class="repo-col-date">2026-ACTIVE</div>
+            <div class="repo-col-main">
+              <a href="https://github.com/rahul18107/developer_academy_portfolio" target="_blank" rel="noopener noreferrer" class="repo-row-title">
+                developer_academy_portfolio
+              </a>
+              <span class="repo-row-subtitle">Developer curriculum portfolio featuring application blueprints and technical project milestones.</span>
+            </div>
+            <div class="repo-col-meta">
+              <span class="badge-lang">Markdown / Docs</span>
+              <a href="https://github.com/rahul18107/developer_academy_portfolio" target="_blank" rel="noopener noreferrer" class="repo-action-icon" title="Open Repository">
+                <span class="mono-symbol">↗</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (with Paper Texture & Washi Accents) -->
+    <section class="section section-about section-notebook-bg" id="about">
+      <div class="container">
+        <div class="section-tag-header">
+          <div class="section-badge">ENGINEERING PHILOSOPHY</div>
+          <div class="section-tag-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card paper-sheet">
+            <div class="washi-tape top-left"></div>
+            <h4 class="about-card-title">01 // AI & Intent Systems</h4>
+            <p class="about-card-text">
+              I believe modern software is moving toward intent-driven architecture where AI acts as an active reasoning partner rather than just an auto-complete tool. From RAG pipelines to autonomous persona simulations, I build tools grounded in reliable execution.
+            </p>
+          </div>
+          <div class="about-card paper-sheet">
+            <div class="washi-tape top-left"></div>
+            <h4 class="about-card-title">02 // Cross-Platform Velocity</h4>
+            <p class="about-card-text">
+              With Flutter, Dart, and modern JavaScript frameworks, I build fast, cohesive experiences across mobile and web with robust backend services in FastAPI, Node, and Supabase.
+            </p>
+          </div>
+          <div class="about-card paper-sheet">
+            <div class="washi-tape top-left"></div>
+            <h4 class="about-card-title">03 // Data-Driven Insights</h4>
+            <p class="about-card-text">
+              Real engineering connects software with data. I build dashboards and statistical models (Power BI, Python) that turn raw metrics into actionable decision surfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- EDITORIAL FOOTER (With Bermawy GIF animation & Giant Wordmark) -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      
+      <div class="footer-columns">
+        
+        <div class="footer-col bt-solid">
+          <h4 class="footer-heading">CONTACT</h4>
+          <a href="mailto:rahul9591018013@gmail.com" class="footer-link">rahul9591018013@gmail.com</a>
+          <span class="footer-subtext">Location: Bangalore, India</span>
+          <span class="footer-subtext">Open to AI & Full-Stack Opportunities</span>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">FLAGSHIP PROJECTS</h4>
+          <a href="https://goviral-indol.vercel.app" target="_blank" rel="noopener noreferrer" class="footer-link">Virality Predictor (Live)</a>
+          <a href="https://github.com/rahul18107/RAG-project" target="_blank" rel="noopener noreferrer" class="footer-link">StudyComp (RAG App)</a>
+          <a href="https://github.com/rahul18107/DailyCollege" target="_blank" rel="noopener noreferrer" class="footer-link">DailyCollege (Flutter)</a>
+          <a href="https://github.com/rahul18107/VibeOs" target="_blank" rel="noopener noreferrer" class="footer-link">VibeOS (Intent AI)</a>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">SOCIAL & NETWORKS</h4>
+          <a href="https://github.com/rahul18107" target="_blank" rel="noopener noreferrer" class="footer-link">GITHUB [@rahul18107]</a>
+          <a href="https://www.linkedin.com/in/rahul-s-811724340/" target="_blank" rel="noopener noreferrer" class="footer-link">LINKEDIN</a>
+          <a href="mailto:rahul9591018013@gmail.com" class="footer-link">EMAIL</a>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">TECH STACK</h4>
+          <span class="footer-pill">Python & FastAPI</span>
+          <span class="footer-pill">Flutter & Dart</span>
+          <span class="footer-pill">RAG & Vector DBs</span>
+          <span class="footer-pill">Supabase & PostgreSQL</span>
+          <span class="footer-pill">React & Tailwind</span>
+          <span class="footer-pill">Power BI Analytics</span>
+        </div>
+
+      </div>
+
+      <!-- Giant Wordmark Graphic with tech robot assistant graphic -->
+      
+        <div class="footer-wordmark-svg-wrap">
+  <svg class="footer-svg-wordmark" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+    
+    <!-- SKETCH HATCHING FILTER -->
+    <defs>
+      <filter id="sketch" x="-5%" y="-5%" width="110%" height="110% ">
+        <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" seed="2" result="noise"/>
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <pattern id="hatch" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="5" stroke="rgba(52,90,170,0.18)" stroke-width="1.2"/>
+      </pattern>
+    </defs>
+
+    <!-- OUTLINE LETTERS (sketch displaced) -->
+    <text class="wordmark-outline" x="50%" y="148" text-anchor="middle" filter="url(#sketch)">RAHULLLLL</text>
+    
+    <!-- HATCH FILL LETTERS -->
+    <text class="wordmark-hatch" x="50%" y="148" text-anchor="middle" filter="url(#sketch)">RAHULLLLL</text>
+
+    <!-- STICK FIGURE sitting on the S (blue doodle) -->
+    <g class="stick-figure" transform="translate(762, 28)">
+      <!-- Head -->
+      <circle cx="18" cy="18" r="10" fill="none" stroke="#345AAA" stroke-width="2.2" stroke-linecap="round"/>
+      <!-- Hair spikes -->
+      <line x1="11" y1="10" x2="8"  y2="3"  stroke="#345AAA" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="15" y1="8"  x2="13" y2="1"  stroke="#345AAA" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="19" y1="8"  x2="19" y2="1"  stroke="#345AAA" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="23" y1="9"  x2="26" y2="3"  stroke="#345AAA" stroke-width="1.8" stroke-linecap="round"/>
+      <!-- Eyes -->
+      <circle cx="14" cy="17" r="1.4" fill="#345AAA"/>
+      <circle cx="22" cy="17" r="1.4" fill="#345AAA"/>
+      <!-- Smile -->
+      <path d="M13,23 Q18,27 23,23" fill="none" stroke="#345AAA" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- Body -->
+      <line x1="18" y1="28" x2="18" y2="60" stroke="#345AAA" stroke-width="2.2" stroke-linecap="round"/>
+      <!-- Left arm -->
+      <line x1="18" y1="38" x2="4"  y2="50" stroke="#345AAA" stroke-width="2"   stroke-linecap="round"/>
+      <!-- Right arm -->
+      <line x1="18" y1="38" x2="32" y2="50" stroke="#345AAA" stroke-width="2"   stroke-linecap="round"/>
+      <!-- Left leg (bent, sitting) -->
+      <line x1="18" y1="60" x2="6"  y2="75" stroke="#345AAA" stroke-width="2"   stroke-linecap="round"/>
+      <line x1="6"  y1="75" x2="0"  y2="68" stroke="#345AAA" stroke-width="2"   stroke-linecap="round"/>
+      <!-- Right leg (bent, sitting) -->
+      <line x1="18" y1="60" x2="30" y2="75" stroke="#345AAA" stroke-width="2"   stroke-linecap="round"/>
+      <line x1="30" y1="75" x2="36" y2="68" stroke="#345AAA" stroke-width="2"   stroke-linecap="round"/>
+    </g>
+
+  </svg>
+</div>
+        
+        <div class="footer-bottom-bar">
+          <span class="mono-text">© 2026 RAHUL S — BUILT WITH BERMAWY INSPIRATION   (DING DONG)</span>
+          <a href="#" class="back-to-top">[BACK TO TOP ↑]</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- PROJECT INSPECTION MODAL -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true">
+    <div class="modal-box paper-sheet">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-tag">[SYSTEM_INSPECT]</span>
+          <h3 class="modal-title" id="modal-title">Project Name</h3>
+        </div>
+        <button class="modal-close-btn" id="modal-close" aria-label="Close Modal">[✕ CLOSE]</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" id="modal-primary-btn" class="btn btn-primary">[VISIT LIVE DEMO ↗]</a>
+        <a href="#" target="_blank" id="modal-repo-btn" class="btn btn-secondary">[VIEW REPOSITORY ↗]</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

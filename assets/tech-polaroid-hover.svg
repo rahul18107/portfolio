@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="100%" height="100%">
+  <defs>
+    <radialGradient id="cyberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3A86FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4"/>
+      <stop offset="100%" stop-color="#70E000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Cyber Canvas -->
+  <rect width="440" height="440" fill="#0A1128"/>
+  <circle cx="220" cy="220" r="210" fill="url(#cyberGlow)"/>
+
+  <!-- Matrix / Grid Lines -->
+  <line x1="20" y1="20" x2="420" y2="20" stroke="#00F5D4" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="20" y1="420" x2="420" y2="420" stroke="#00F5D4" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="20" y1="20" x2="20" y2="420" stroke="#00F5D4" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.6"/>
+  <line x1="420" y1="20" x2="420" y2="420" stroke="#00F5D4" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.6"/>
+
+  <text x="25" y="38" font-family="'Cousine', monospace" font-size="10" fill="#00F5D4" font-weight="700" letter-spacing="1">SYSTEM_OVERCLOCK // ACTIVE</text>
+  <text x="320" y="38" font-family="'Cousine', monospace" font-size="9" fill="#FF007F" font-weight="700">CPU: 4.8 GHz</text>
+
+  <!-- Circular Radar / Cyber HUD -->
+  <circle cx="220" cy="210" r="140" fill="none" stroke="#1C3166" stroke-width="2"/>
+  <circle cx="220" cy="210" r="110" fill="none" stroke="#3A86FF" stroke-width="1.5" stroke-dasharray="8,6"/>
+  <circle cx="220" cy="210" r="75" fill="none" stroke="#00F5D4" stroke-width="1.5"/>
+  <circle cx="220" cy="210" r="35" fill="#1C3166" stroke="#00F5D4" stroke-width="2"/>
+
+  <!-- Central AI Core Node -->
+  <circle cx="220" cy="210" r="14" fill="#00F5D4"/>
+  <circle cx="220" cy="210" r="8" fill="#FFFFFF"/>
+
+  <!-- HUD Crosshairs -->
+  <line x1="60" y1="210" x2="380" y2="210" stroke="#3A86FF" stroke-width="0.75" stroke-dasharray="6,4" opacity="0.6"/>
+  <line x1="220" y1="50" x2="220" y2="370" stroke="#3A86FF" stroke-width="0.75" stroke-dasharray="6,4" opacity="0.6"/>
+
+  <!-- Orbital Cyber Nodes -->
+  <circle cx="150" cy="140" r="8" fill="#FF007F"/>
+  <circle cx="290" cy="140" r="8" fill="#70E000"/>
+  <circle cx="130" cy="260" r="8" fill="#FEE440"/>
+  <circle cx="310" cy="260" r="8" fill="#00F5D4"/>
+  
+  <line x1="220" y1="210" x2="150" y2="140" stroke="#FF007F" stroke-width="1.5"/>
+  <line x1="220" y1="210" x2="290" y2="140" stroke="#70E000" stroke-width="1.5"/>
+  <line x1="220" y1="210" x2="130" y2="260" stroke="#FEE440" stroke-width="1.5"/>
+  <line x1="220" y1="210" x2="310" y2="260" stroke="#00F5D4" stroke-width="1.5"/>
+
+  <!-- Terminal Telemetry Windows -->
+  <rect x="40" y="310" width="160" height="70" rx="4" fill="#111B33" stroke="#00F5D4" stroke-width="1.5"/>
+  <text x="50" y="328" font-family="'Cousine', monospace" font-size="8" fill="#00F5D4" font-weight="700">&gt; RAG_EMBEDDING_V3</text>
+  <text x="50" y="344" font-family="'Cousine', monospace" font-size="8" fill="#FFFFFF">Tokens/sec: 14,200</text>
+  <text x="50" y="360" font-family="'Cousine', monospace" font-size="8" fill="#70E000">Latency: 12ms [OK]</text>
+
+  <rect x="240" y="310" width="160" height="70" rx="4" fill="#111B33" stroke="#FF007F" stroke-width="1.5"/>
+  <text x="250" y="328" font-family="'Cousine', monospace" font-size="8" fill="#FF007F" font-weight="700">&gt; VIRALITY_ENGINE</text>
+  <text x="250" y="344" font-family="'Cousine', monospace" font-size="8" fill="#FFFFFF">AI Personas: 50/50</text>
+  <text x="250" y="360" font-family="'Cousine', monospace" font-size="8" fill="#FEE440">Cascade: EXPONENTIAL</text>
+
+  <!-- Glowing Badge -->
+  <g transform="translate(48, 55)">
+    <rect width="90" height="20" rx="3" fill="#FF007F"/>
+    <text x="45" y="14" font-family="'Cousine', monospace" font-size="9" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1">CYBER_MODE</text>
+  </g>
+</svg>

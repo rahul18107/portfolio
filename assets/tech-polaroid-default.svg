@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="100%" height="100%">
+  <defs>
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#345AAA" opacity="0.18" />
+    </pattern>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF3FD" />
+      <stop offset="100%" stop-color="#D5E8FD" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="3" dy="4" stdDeviation="0" flood-color="#345AAA" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="440" height="440" fill="#FAF9F6"/>
+  <rect width="440" height="440" fill="url(#dotGrid)"/>
+
+  <!-- Blueprint Dimension Lines -->
+  <line x1="20" y1="20" x2="420" y2="20" stroke="#345AAA" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="20" y1="420" x2="420" y2="420" stroke="#345AAA" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="20" y1="20" x2="20" y2="420" stroke="#345AAA" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="420" y1="20" x2="420" y2="420" stroke="#345AAA" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.4"/>
+  <text x="25" y="35" font-family="'Cousine', monospace" font-size="10" fill="#345AAA" font-weight="700" letter-spacing="1">DEV_WORKSTATION // BLUEPRINT 2.0</text>
+  <text x="320" y="35" font-family="'Cousine', monospace" font-size="9" fill="#345AAA" font-weight="700">SCALE: 1:1</text>
+
+  <!-- Desk Surface -->
+  <rect x="40" y="330" width="360" height="12" rx="2" fill="#E6F3FF" stroke="#345AAA" stroke-width="2"/>
+  <line x1="60" y1="342" x2="60" y2="395" stroke="#345AAA" stroke-width="3"/>
+  <line x1="380" y1="342" x2="380" y2="395" stroke="#345AAA" stroke-width="3"/>
+
+  <!-- Main Ultra-Wide Curved Monitor -->
+  <rect x="70" y="75" width="300" height="185" rx="8" fill="#FFFFFF" stroke="#345AAA" stroke-width="3" filter="url(#cardShadow)"/>
+  <rect x="80" y="85" width="280" height="165" rx="4" fill="url(#screenGrad)" stroke="#345AAA" stroke-width="1.5"/>
+
+  <!-- Monitor Stand -->
+  <rect x="205" y="260" width="30" height="48" fill="#E6F3FF" stroke="#345AAA" stroke-width="2"/>
+  <ellipse cx="220" cy="308" rx="55" ry="8" fill="#FFFFFF" stroke="#345AAA" stroke-width="2"/>
+
+  <!-- Monitor Content: Code Editor Window -->
+  <rect x="88" y="93" width="160" height="148" rx="3" fill="#FFFFFF" stroke="#345AAA" stroke-width="1"/>
+  <!-- Window Header with Dots -->
+  <rect x="88" y="93" width="160" height="16" fill="#E6F3FF" stroke="#345AAA" stroke-width="1"/>
+  <circle cx="96" cy="101" r="2.5" fill="#EF4444"/>
+  <circle cx="104" cy="101" r="2.5" fill="#F59E0B"/>
+  <circle cx="112" cy="101" r="2.5" fill="#10B981"/>
+  <text x="122" y="104" font-family="'Cousine', monospace" font-size="7" fill="#345AAA" font-weight="700">main.py - StudyComp</text>
+
+  <!-- Syntax Code Lines -->
+  <text x="96" y="122" font-family="'Cousine', monospace" font-size="8" fill="#345AAA" font-weight="700">import torch, rag</text>
+  <text x="96" y="136" font-family="'Cousine', monospace" font-size="8" fill="#345AAA" font-weight="700">class AgentEngine:</text>
+  <text x="108" y="149" font-family="'Cousine', monospace" font-size="7" fill="#2563EB">def __init__(self):</text>
+  <text x="120" y="161" font-family="'Cousine', monospace" font-size="7" fill="#555555">self.embed = Vector()</text>
+  <text x="120" y="173" font-family="'Cousine', monospace" font-size="7" fill="#555555">self.llm = Persona()</text>
+  <text x="108" y="188" font-family="'Cousine', monospace" font-size="7" fill="#16A34A"># Status: 100% Ready</text>
+  <text x="108" y="201" font-family="'Cousine', monospace" font-size="7" fill="#345AAA">await self.predict()</text>
+  <rect x="195" y="195" width="5" height="9" fill="#345AAA"/>
+
+  <!-- Monitor Content: AI Neural Network Graph -->
+  <rect x="254" y="93" width="98" height="148" rx="3" fill="#FFFFFF" stroke="#345AAA" stroke-width="1"/>
+  <rect x="254" y="93" width="98" height="16" fill="#E6F3FF" stroke="#345AAA" stroke-width="1"/>
+  <text x="260" y="104" font-family="'Cousine', monospace" font-size="7" fill="#345AAA" font-weight="700">DIFFUSION_NET</text>
+
+  <!-- Neural Nodes & Connections -->
+  <!-- Layer 1 -->
+  <circle cx="270" cy="130" r="4.5" fill="#345AAA"/>
+  <circle cx="270" cy="155" r="4.5" fill="#345AAA"/>
+  <circle cx="270" cy="180" r="4.5" fill="#345AAA"/>
+  <circle cx="270" cy="205" r="4.5" fill="#345AAA"/>
+  <!-- Layer 2 -->
+  <circle cx="303" cy="142" r="4.5" fill="#2563EB"/>
+  <circle cx="303" cy="168" r="4.5" fill="#2563EB"/>
+  <circle cx="303" cy="193" r="4.5" fill="#2563EB"/>
+  <!-- Layer 3 -->
+  <circle cx="335" cy="155" r="5" fill="#10B981"/>
+  <circle cx="335" cy="180" r="5" fill="#10B981"/>
+
+  <!-- Lines -->
+  <path d="M270,130 L303,142 M270,130 L303,168 M270,155 L303,142 M270,155 L303,193 M270,180 L303,168 M270,205 L303,193 M303,142 L335,155 M303,168 L335,155 M303,168 L335,180 M303,193 L335,180" stroke="#345AAA" stroke-width="0.8" opacity="0.6"/>
+
+  <text x="264" y="228" font-family="'Cousine', monospace" font-size="7" fill="#10B981" font-weight="700">ACCURACY: 98.4%</text>
+
+  <!-- Mechanical Keyboard -->
+  <rect x="135" y="318" width="170" height="20" rx="3" fill="#FFFFFF" stroke="#345AAA" stroke-width="2"/>
+  <!-- Keycaps -->
+  <g fill="#E6F3FF" stroke="#345AAA" stroke-width="0.75">
+    <rect x="140" y="322" width="9" height="6" rx="1"/>
+    <rect x="151" y="322" width="9" height="6" rx="1"/>
+    <rect x="162" y="322" width="9" height="6" rx="1"/>
+    <rect x="173" y="322" width="9" height="6" rx="1"/>
+    <rect x="184" y="322" width="9" height="6" rx="1"/>
+    <rect x="195" y="322" width="9" height="6" rx="1"/>
+    <rect x="206" y="322" width="9" height="6" rx="1"/>
+    <rect x="217" y="322" width="9" height="6" rx="1"/>
+    <rect x="228" y="322" width="9" height="6" rx="1"/>
+    <rect x="239" y="322" width="9" height="6" rx="1"/>
+    <rect x="250" y="322" width="9" height="6" rx="1"/>
+    <rect x="261" y="322" width="9" height="6" rx="1"/>
+    <rect x="272" y="322" width="16" height="6" rx="1" fill="#345AAA"/>
+
+    <rect x="140" y="330" width="14" height="6" rx="1" fill="#345AAA"/>
+    <rect x="156" y="330" width="9" height="6" rx="1"/>
+    <rect x="167" y="330" width="9" height="6" rx="1"/>
+    <rect x="178" y="330" width="55" height="6" rx="1" fill="#FFFFFF"/>
+    <rect x="235" y="330" width="9" height="6" rx="1"/>
+    <rect x="246" y="330" width="9" height="6" rx="1"/>
+    <rect x="257" y="330" width="14" height="6" rx="1"/>
+    <rect x="273" y="330" width="15" height="6" rx="1" fill="#345AAA"/>
+  </g>
+
+  <!-- Precision Gaming Mouse -->
+  <rect x="320" y="320" width="18" height="26" rx="8" fill="#FFFFFF" stroke="#345AAA" stroke-width="1.75"/>
+  <line x1="329" y1="320" x2="329" y2="330" stroke="#345AAA" stroke-width="1"/>
+  <circle cx="329" cy="326" r="1.5" fill="#345AAA"/>
+
+  <!-- Coffee Mug with Steam -->
+  <rect x="85" y="312" width="22" height="26" rx="2" fill="#E6F3FF" stroke="#345AAA" stroke-width="2"/>
+  <path d="M107,318 C113,318 113,328 107,328" fill="none" stroke="#345AAA" stroke-width="2"/>
+  <path d="M91,308 Q93,303 91,298" fill="none" stroke="#345AAA" stroke-width="1" stroke-linecap="round"/>
+  <path d="M96,306 Q98,301 96,296" fill="none" stroke="#345AAA" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Retro Tech Badge / Chip Stamp -->
+  <g transform="translate(48, 48)">
+    <rect width="64" height="18" rx="2" fill="#345AAA"/>
+    <text x="32" y="12" font-family="'Cousine', monospace" font-size="8" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="1">RAHUL_LABS</text>
+  </g>
+</svg>
